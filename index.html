@@ -1,0 +1,95 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rebot Control</title>    
+   <link rel="stylesheet" href="style.css">   
+   
+</head>
+
+<body>
+  
+    <div class = "slideContainer">
+
+		<div class="slidercontrol">
+        <form id="myForm" action="index.php" method = "POST" target="dummyframe">
+
+        
+        <br>
+
+		<h3>Motor 1</h3>  											
+	
+			<input type="range" min="0" max="180" value="90" id="myAngle1" name = "angle1" class="slider" > 
+			<h5>Angle: <span id="value1"></span></h5>      
+        <br>
+
+        <br>
+
+		<h3>Motor 2</h3>  											
+	
+			<input type="range" min="0" max="180" value="90" id="myAngle2" name = "angle2" class="slider" > 
+			<h5>Angle: <span id="value2"></span></h5>      
+        <br>
+        
+        <br>
+
+		<h3>Motor 3</h3>  											
+	
+			<input type="range" min="0" max="180" value="90" id="myAngle3" name = "angle3" class="slider" > 
+			<h5>Angle: <span id="value3"></span></h5>      
+        <br>
+
+         <br>
+
+		<h3>Motor 4</h3>  											
+	
+			<input type="range" min="0" max="180" value="90" id="myAngle4" name = "angle4" class="slider" > 
+			<h5>Angle: <span id="value4"></span></h5>      
+        <br>
+
+        <br>
+
+		<h3>Motor 5</h3>  											
+	
+			<input type="range" min="0" max="180" value="90" id="myAngle5" name = "angle5" class="slider" > 
+			<h5>Angle: <span id="value5"></span></h5>      
+        <br>
+		
+		 
+         <br>
+
+		<h3>Motor 6</h3>  											
+	
+			<input type="range" min="0" max="180" value="90" id="myAngle6" name = "angle6" class="slider" > <h5>Angle: <span id="value6"></span></h5> 
+			     
+        <br>
+		
+       </div>
+
+		<br>
+		
+			<p>
+			<input type="submit" value = "Save" name = save  style="font-size: 40px; background: black; border-radius: 45px; color: white;" > 
+		
+			<input type="submit" value = "ON" name = on  style="font-size: 40px; background: green; border-radius: 45px; color: white;" >
+		
+			<input type="submit" value = "OFF" name = off  style="font-size: 40px; background: red; border-radius: 45px; color: white;" >
+		
+			</p>
+		<br>
+
+        </form>
+
+   
+    
+    </div>
+
+
+   
+    
+</body>
+
+<script src="main.js"></script>
+
+
+</html>
